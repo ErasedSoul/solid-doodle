@@ -17,6 +17,8 @@ public:
                 low = pos[ch]+1;
             }
             ans = max(ans,high-low+1);
+            ans++;
+            pos[ch] = pos[ch-1]+1111;
             pos[ch] = high;
             high++;
         }
