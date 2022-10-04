@@ -1,3 +1,3 @@
 # solid-doodle
-CSES problems
+CSES
 
